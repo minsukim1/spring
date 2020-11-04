@@ -46,8 +46,9 @@ public class BoardServiceImpl implements BoardService {
 
 	@Override
 	public List<BoardVO> getList() {
-		// TODO Auto-generated method stub
-		return null;
+		
+		log.info("getList........");
+		return mapper.getList();
 	}
 
 	
